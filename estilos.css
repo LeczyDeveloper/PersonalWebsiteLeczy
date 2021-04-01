@@ -78,7 +78,7 @@ text-decoration: none;
 .box p a:hover {
 border-bottom: 1px solid #FFF;
 }
-@media (max-width: 400px) {
+@media (min-width: 600px) {
   
   .box {  
    height: 900px;
