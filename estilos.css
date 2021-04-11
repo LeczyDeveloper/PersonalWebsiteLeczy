@@ -86,7 +86,7 @@ border-bottom: 1px solid #FFF;
 @media (max-width: 600px) {
 
 body{
-height: 700px;
+height: 900px;
 width: 300px;
 background: url('imagenes/god.gif') no-repeat;
 background-size: cover;
