@@ -83,24 +83,16 @@ text-decoration: none;
 .box p a:hover {
 border-bottom: 1px solid #FFF;
 }
-@media (max-width: 600px) {
-
-body{
-height: 900px;
-width: 300px;
-background: url('imagenes/god.gif') no-repeat;
-background-size: cover;
-padding: 20px;
-}
-  .box {
-   height: 300px;
-   width: 300px;
-   margin-top: 60%;
-   margin-left: 10%;
-   margin-right: 0%;
+@media (max-width: 550px){
+  body{
+   height: 1000px;
+  }
+  .box{
+    width: 200px;
+    padding: 20%;
+    min-width: 10px;
   }
   .box h1{
-  font-size: 80px;
-  letter-spacing: 0px;
+    font-size: 25px;
   }
   }
