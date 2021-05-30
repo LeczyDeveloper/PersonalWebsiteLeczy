@@ -13,7 +13,34 @@ body {
    min-width: 200px;
    padding: 70px;
 }
+ .loading-gif {
+            max-width: 500px;
+        }
 
+        .pre-loader {
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .pre-loader.hidden {
+            animation: fadeOut 1s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeOut {
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
 .box {
   width: 500px;
   background: rgba(0, 0, 0, .3);
